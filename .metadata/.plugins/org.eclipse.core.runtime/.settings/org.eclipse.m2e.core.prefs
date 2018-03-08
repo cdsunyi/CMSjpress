@@ -1,0 +1,6 @@
+eclipse.m2.defaultRuntime=apache-maven-3.5.0-bin
+eclipse.m2.runtimes=apache-maven-3.5.0-bin
+eclipse.m2.runtimesNodes/apache-maven-3.5.0-bin/location=E\:\\software\\maven\\apache-maven-3.5.0-bin\\apache-maven-3.5.0
+eclipse.m2.runtimesNodes/apache-maven-3.5.0-bin/type=EXTERNAL
+eclipse.m2.userSettingsFile=E\:\\software\\maven\\apache-maven-3.5.0-bin\\apache-maven-3.5.0\\conf\\settings.xml
+eclipse.preferences.version=1

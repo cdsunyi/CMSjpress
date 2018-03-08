@@ -1,0 +1,32 @@
+<#include "_layout.html"/> 
+<@layout>
+<div class="x-pc-width clearfix x-margin-top-20 x-margin-bottom-20">
+	<!-- -->
+	<div class="x-pull-left x-layout-73 blog-sm-left">
+
+		<@jp.indexPage module="article"> 
+		
+		
+		<#if page.isFirstPage() > 
+		<@jp.contents flag="hot" module="article" count="3" >
+		<#list contents as content>
+			<P>${(content.url)!}</P>
+			<P>${(content.title)!}</P>
+		</#list>
+			
+		</@jp.contents>
+		</#if>
+		
+		<p>nihao</p>
+		<p>nihao</p>
+		<p>nihao</p>
+
+
+		
+		</@jp.indexPage>
+		
+	</div>
+	<!-- -->
+
+</div>
+</@layout>

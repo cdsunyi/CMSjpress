@@ -1,0 +1,8 @@
+#Auto create by JPress
+#Thu Jan 11 18:02:40 CST 2018
+db_name=gfqhcms
+db_host_port=3306
+db_tablePrefix=cms_
+db_host=localhost
+db_password=123456
+db_user=root

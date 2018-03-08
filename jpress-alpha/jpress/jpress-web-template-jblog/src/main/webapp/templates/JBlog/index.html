@@ -1,0 +1,68 @@
+<#include "_layout.html"/> 
+<@layout>
+<div class="x-pc-width clearfix x-margin-top-20 x-margin-bottom-20">
+	<!-- -->
+	<div class="x-pull-left x-layout-73 blog-sm-left">
+
+		<@jp.indexPage module="article"> 
+		
+		
+		<#if page.isFirstPage() > 
+		<@jp.contents flag="hot" module="article" count="3" >
+			<div class="x-layout-100 clearfix" style="height:260px;">
+	           	<#list contents as content>
+	           	<#if content?is_first >
+				<div class="x-pull-left x-layout-70 image-box">
+			        <div class="yfh-banner-image">
+			        	<img src="${(content.thumbnail)!}"  />
+			        </div>
+			        <div class="x-box-border yfh-banner-transfer">
+			        <p>nihao</p>
+			       	 <a href="${(content.url)!}">
+			          <p style="font-size:1.2rem;">${(content.title)!}</p>
+			          </a>
+			          
+			        </div>
+		        </div>
+				
+				<#else>
+				<div class="x-pull-right x-layout-28 sub-image-box ">
+					 <div class="yfh-banner-image">
+			        	<img src="${(content.thumbnail)!}" />
+			        </div>
+			        <div class="x-box-border yfh-banner-transfer">
+			        <p>nihao</p>
+			       	 <a href="${(content.url)!}">
+			          <p>${(content.title)!}</p>
+			          </a>
+			          
+			        </div>
+				</div>
+				</#if>
+				</#list>
+				<a>test</a>
+			</div>
+		</@jp.contents>
+		</#if>
+		
+		<p>nihao</p>
+		<p>nihao</p>
+		
+		<ul class="x-page">
+			<@pagination>
+				<#list pages as page>
+				<li class="${page.style!}">
+					<a href="${page.url!}">${page.text!}</a>
+				</li>
+				</#list>
+			</@pagination>
+		</ul>
+
+		
+		</@jp.indexPage>
+		
+	</div>
+	<!-- -->
+
+</div>
+</@layout>

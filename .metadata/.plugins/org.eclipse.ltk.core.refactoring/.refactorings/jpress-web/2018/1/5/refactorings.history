@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move &apos;pom.xml&apos; to &apos;jpress-web&apos;" description="Move &apos;pom.xml&apos; to &apos;jpress-web&apos;" destination="/jpress-web" element1="target/jpress-web/META-INF/pom.xml" flags="7" id="org.eclipse.ltk.core.refactoring.move.resources" resources="1" stamp="1517278717694" updateReferences="true"/>
+</session>
