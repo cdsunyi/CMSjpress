@@ -14,9 +14,9 @@
 	</section>
 	<section name="MavenProjectImportWizardPage">
 		<list key="rootDirectory">
+			<item value="E:\software\eclipse\workplacejpress_20171123\jpress-alpha\jpress"/>
 			<item value="E:\software\eclipse\workplacejpress_20171123\jpress-alpha\jpress\jpress-web-template-new"/>
 			<item value="E:\software\eclipse\workplacejpress_20171123\jpress-alpha"/>
-			<item value="E:\software\eclipse\workplacejpress_20171123\jpress-alpha\jpress"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
